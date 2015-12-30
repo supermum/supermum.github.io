@@ -1,0 +1,26 @@
+body {
+	background: url(images/qasralsarab.jpg); 
+	background-size: cover;
+	font-family: "Helvetica Neue"; 
+	font-weight: 100;
+	text-align: center;
+	color: #000;
+}
+
+h1 {
+	font-size: 80px;
+	font-weight: 100;
+}
+
+#slogan {
+	font-weight: 50;
+}
+
+#inspired {
+	padding-bottom: 10cm;
+}
+
+.tbd {
+	color: #fff;
+	font-weight: 300;
+}
