@@ -1,43 +1,45 @@
-
-@import url(https://fonts.googleapis.com/css?family=Droid+Serif);
-
+@import url(https://fonts.googleapis.com/css?family=Nixie+One);
 
 body {
-	background: url(images/qasralsarab.jpg); 
-	background-size: cover;
-	font-family: 'Helvetica Neue', sans-serif;
+	background: #fff; 
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
 	font-weight: 100;
-	text-align: center;
-	font-size: 15px;
+	text-align: justify;
 	color: #000;
 }
 
 h1 {
 	font-size: 80px;
 	font-weight: 100;
+	text-align: center;
 }
 
 h2 {
-	font-size: 20px;
-	font-weight: 100;
+	font-weight: 200;
+	text-transform: uppercase;
 }
 
-p {
-	font-family: 'Droid Serif', serif;
-	color: #fff;
-	font-style: italic;
+h3 {
+	font-weight: 200;
+	text-transform: uppercase;
 }
+
+p  {
+	font-family: 'Nixie One', cursive;
+}
+
+#splash { 
+	background-image: url("images/qasralsarab.jpg");
+	background-repeat: no-repeat;
+	max-height: 100%;
+}
+
 
 #slogan {
-	font-weight: 50;
-	padding-bottom: 10cm;
+	font-weight: 200;
+	text-align: center;
+	padding-bottom: 100px;
 }
 
-.tbd {
-	font-family: 'Helvetica Neue', sans-serif;
-	color: #fff;
-	font-size: 20px;
-	font-weight: 400;
-	font-style:normal;
 
-}
+
