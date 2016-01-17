@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+body {
+	background: #fff; 
+	font-family: "Playfair Display", Garamond, "Times New Roman", serif; 
+	font-weight: 400;
+	text-align: justify;
+	color: #000;
+}
+
+h1 {
+	font-size: 70px;
+	text-align: center;
+}
+
+h2 {
+	font-weight: 200;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-weight: 200;
+	text-transform: uppercase;
+}
+
+p  {
+	font-family: "Lato", Helvetica, Arial, serif;
+}
+
+.splash { 
+	background: url("../images/qasralsarab.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+    text-align: center;
+	vertical-align: middle;
+	padding: 3em 5em 20em 5em;
+}
+
+#slogan {
+	font-weight: 200;
+	text-align: center;
+	padding-bottom: 10em;
+}
+
+.wrapper {
+	background-color: white;
+	margin: 0;
+}
+
+ul{
+	list-style: none;
+	font-family: "Lato", Helvetica, Arial, serif; 
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+div {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+section {
+	background-color: #FFE2B8
+	border: 1px black solid;
+    padding: 20px;
+	} 
