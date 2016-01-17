@@ -1,16 +1,17 @@
-@import url(https://fonts.googleapis.com/css?family=Nixie+One);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+@import url(https://fonts.googleapis.com/css?family=Lato);
 
 body {
 	background: #fff; 
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
-	font-weight: 100;
+	font-family: "Playfair Display", Garamond, "Times New Roman", serif; 
+	font-weight: 400;
 	text-align: justify;
 	color: #000;
 }
 
 h1 {
-	font-size: 80px;
-	font-weight: 100;
+	font-size: 70px;
+	font-weight: ;
 	text-align: center;
 }
 
@@ -25,13 +26,13 @@ h3 {
 }
 
 p  {
-	font-family: 'Nixie One', cursive;
+	font-family: "Lato", Helvetica, Arial, serif;
 }
 
 #splash { 
-	background-image: url("images/qasralsarab.jpg");
+	background: url("images/qasralsarab.jpg");
 	background-repeat: no-repeat;
-	max-height: 100%;
+	background-height: 500px;
 }
 
 
