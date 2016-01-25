@@ -1,0 +1,158 @@
+
+body {
+	background: #fff; 
+	font-family: "Helvetica neue", Helvetica, Arial, sans-serif; 
+	font-weight: 200;
+	text-align: justify;
+	color: #000;
+}
+
+h1 {
+	font-weight: 100;
+	font-size: 70px;
+	text-align: center;
+	padding-bottom: 1em;
+}
+
+h2 {
+	font-weight: 200;
+	text-transform: uppercase;
+	padding-bottom: 1em;
+	text-align: center;
+}
+
+h3 {
+	font-weight: 200;
+	text-transform: uppercase;
+	padding-bottom: 1em;
+}
+
+p {
+	line-height: 1.3em;
+}
+
+.splash { 
+	background: url("../images/qasralsarab.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+    text-align: center;
+	vertical-align: middle;
+	padding: 3em 5em 20em 5em;
+}
+
+#slogan {
+	font-weight: 200;
+	text-align: center;
+	padding-bottom: 10em;
+}
+
+#about {
+	background-color: #FFB7CF;
+	border:1px black solid;
+	padding: 20px;
+}
+
+#left {
+	background-color: #E582A2;
+	border:1px black solid;
+	padding: 20px;
+	float: left;
+	width:30%;
+}
+
+#right {
+	background-color: #E55B88;
+	border:1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
+}
+
+#galleries {
+	display: block;
+	float:left;
+	padding: 10em 5em 10em 5em;
+	font-size: bold;
+	width: 100%;
+}
+
+#travel {
+	background-image: url("../images/hoianstreets.jpg");
+	padding: 5em;
+	background-size: cover;
+	background-repeat: none;
+	float: left;
+}
+
+#family {
+	background-image: url("../images/andrewetemma.jpg");
+	padding: 5em;
+	background-size: cover;
+	background-repeat: none;
+	float: left;
+}
+
+#lifestyle {
+	background-image: url("../images/newyorker.jpg");
+	padding: 5em;
+	background-size: cover;
+	background-repeat: none;
+	float: left;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+.wrapper {
+	background-color: white;
+	margin: 0;
+}
+
+ul{
+	list-style: none;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+}
+
+a {
+	text-decoration: none;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+div {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+    padding: 20px;
+	} 
