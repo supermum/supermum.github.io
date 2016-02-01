@@ -31,6 +31,7 @@ p {
 	line-height: 1.3em;
 }
 
+
 .splash { 
 	background: url("../images/qasralsarab.jpg");
 	background-repeat: no-repeat;
@@ -47,22 +48,16 @@ p {
 }
 
 #about {
-	background-color: #FFB7CF;
-	border:1px black solid;
 	padding: 20px;
 }
 
 #left {
-	background-color: #E582A2;
-	border:1px black solid;
 	padding: 20px;
 	float: left;
 	width:30%;
 }
 
 #right {
-	background-color: #E55B88;
-	border:1px black solid;
 	padding: 20px;
 	float: right;
 	width: 62%;
@@ -71,33 +66,42 @@ p {
 #galleries {
 	display: block;
 	float:left;
-	padding: 10em 5em 10em 5em;
+	padding: 10em 0em 10em 0em;
 	font-size: bold;
 	width: 100%;
 }
 
 #travel {
-	background-image: url("../images/hoianstreets.jpg");
-	padding: 5em;
 	background-size: cover;
-	background-repeat: none;
+	width: 30%;
+	height: auto;
+	background-repeat: no-repeat;
 	float: left;
+	padding: 1em;
 }
 
 #family {
-	background-image: url("../images/andrewetemma.jpg");
-	padding: 5em;
 	background-size: cover;
-	background-repeat: none;
+	width: 30%;
+	height: auto;
+	background-repeat: no-repeat;
 	float: left;
+	padding: 1em;
 }
 
 #lifestyle {
-	background-image: url("../images/newyorker.jpg");
-	padding: 5em;
 	background-size: cover;
-	background-repeat: none;
+	width: 30%;
+	height: auto;
+	background-repeat: no-repeat;
 	float: left;
+	padding: 1em;
+}
+
+#travel_title {
+	position: relative;
+	top:100px;
+	left: 45%;
 }
 
 .clearfix:after {
@@ -119,14 +123,11 @@ ul{
 }
 
 header {
-	background-color: #FFED74;
-	border: 1px black solid;
-    padding: 20px;
+
 }
 
 nav {
-	background-color: #E8C66A;
-	border: 1px black solid;
+	
 }
 
 a {
@@ -134,25 +135,22 @@ a {
 }
 
 article {
-	background-color: #E89C6C;
-	border: 1px black solid;
+
     padding: 20px;
 }
 
 footer {
-	background-color: #FF957E;
-	border: 1px black solid;
     padding: 20px;
 }
 
 div {
-	background-color: #FFE2B8;
-	border: 1px black solid;
     padding: 20px;
 }
 
 section {
-	background-color: #FFE2B8;
-	border: 1px black solid;
     padding: 20px;
 	} 
+
+img {
+	width:100%;
+}
