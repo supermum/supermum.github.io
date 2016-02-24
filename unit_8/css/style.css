@@ -57,18 +57,22 @@ p {
 }
 
 #about {
-	padding: 5em;
+	padding: 2%;
 }
+/*
+#responsivefloat {
+	width: 60%;
+}*/
 
 #left {
-	padding: 3% 2% 5% 1%;
+	padding: 3% 1%;
 	float: left;
 	width: 30%;
 	text-align: right;
 }
 
 #right {
-	padding:3% 1% 5% 2%;
+	padding:3% 1%;
 	float: right;
 	width: 30%;
 	text-align: left;
@@ -185,7 +189,15 @@ position: relative;
  	display: block;
  	float: left;
 	border-radius: 50%;
-	padding: 6%;
+	padding: 0% 8%;
+}
+
+#mobilephoto {
+	display: none;
+}
+
+.block img {
+	margin-top: 2em;
 }
 
 ul{
@@ -239,10 +251,15 @@ span {
 	padding: 2em;
 }
 
-.img-circle {
-	display: none;/*
- 	background-image: url("../images/idphotoal.jpg");*/
- 	}
+#mobilephoto {
+	display: block;
+	float: none;
+	margin: 0 auto;
+}
+
+#desktopphoto {
+	display: none;
+}
 
 #left {
 	padding: 0%;
