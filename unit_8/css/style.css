@@ -190,6 +190,7 @@ position: relative;
  	float: left;
 	border-radius: 50%;
 	padding: 0% 8%;
+	padding-bottom: 5%;
 }
 
 #mobilephoto {
@@ -266,6 +267,7 @@ footer {
 	display: block;
 	float: none;
 	margin: 0 auto;
+	padding-bottom: 4em;
 }
 
 #desktopphoto {
@@ -273,7 +275,7 @@ footer {
 }
 
 #left {
-	padding: 0%;
+	padding: 2% 0% 0% 0%;
 	float: none;
 	text-align: justify;
 	width: 95%;
