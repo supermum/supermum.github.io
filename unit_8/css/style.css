@@ -1,4 +1,4 @@
-/*@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700,700italic);*/
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
 
 body {
 	background: #e4e4dc; 
@@ -81,7 +81,7 @@ p {
 #galleries {
 	display: block;
 	float:left;
-	padding: 10% 0%;
+	padding: 3% 0%;
 	font-size: bold;
 	width: 100%;
 }
@@ -92,7 +92,7 @@ p {
 	height: auto;
 	background-repeat: no-repeat;
 	float: left;
-	padding: 6%;
+	padding: 1% 6%;
 }
 
 #family {
@@ -101,7 +101,7 @@ p {
 	height: auto;
 	background-repeat: no-repeat;
 	float: left;
-	padding: 6%;
+	padding: 1% 6%;
 }
 
 #lifestyle {
@@ -110,7 +110,7 @@ p {
 	height: auto;
 	background-repeat: no-repeat;
 	float: left;
-	padding: 6%;
+	padding: 1% 6%;
 }
 
 /*
@@ -197,7 +197,13 @@ position: relative;
 }
 
 .block img {
-	margin-top: 2em;
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+
+.font1 {
+	font-family: "Satisfy";
+	font-style: italic;
 }
 
 ul{
@@ -208,15 +214,16 @@ header {
 
 }
 
-nav {/*
-	font-family: "Droid Serif", "Times New Roman", Serif;*/
-/*	font-style: italic;*/
+nav {
+/*	font-family: "Droid Serif", "Times New Roman", Serif;
+	font-style: italic;*/
 	color: #000;
 	text-align: center;
+	background-color: 
 }
 
-a {/*
-	font-family: "Droid Serif", "Times New Roman", Serif;*/
+a {
+	font-family: "Satisfy", "Times New Roman", Serif;
 /*	font-style: italic;*/
 	color: #000;
 	text-decoration: none;
@@ -244,6 +251,10 @@ img {
 
 span {
 	color: solid black;
+}
+
+footer {
+	background: #c2c4bf;
 }
 
 @media only screen and (max-width: 1000px){
